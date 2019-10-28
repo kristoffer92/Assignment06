@@ -10,6 +10,7 @@ public class City {
     private int population;
 
     public City(int id, String name, String countryCode, String district, int population) {
+        this.id = id;
         this.name = name;
         this.countryCode = countryCode;
         this.district = district;
@@ -57,7 +58,8 @@ public class City {
     }
 
     @Override
-    public int hashCode() {
+    public int hashCode()
+    {
         return Objects.hash(id, name, countryCode, district, population);
     }
 
