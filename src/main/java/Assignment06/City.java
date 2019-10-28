@@ -65,12 +65,11 @@ public class City {
 
     @Override
     public String toString() {
-        return "City{" +
-                "ID: " + id +
-                "Name: " + name + '\'' +
-                "CountryCode: " + countryCode + '\'' +
-                "District: " + district + '\'' +
-                "Population: " + population +
-                '}';
+        return "City" +
+                "\nID: " + id +
+                "\nName: " + name +
+                "\nCountryCode: " + countryCode +
+                "\nDistrict: " + district +
+                "\nPopulation: " + population;
     }
 }//End of Class
